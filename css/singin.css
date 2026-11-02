@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 90px;
+  background-color: rgba(255, 255, 255, 0.667);
+}
+.singin {
+  /* background-color: gold; */
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.t-center {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+label {
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+.f-with {
+  width: 70%;
+  height: 50px;
+  outline: 3px solid rgb(5, 5, 125);
+}
+pre {
+  text-transform: capitalize;
+}
+form {
+  margin-left: 150px;
+}
+
+::placeholder {
+  padding: 20px;
+  text-transform: capitalize;
+}
+button {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  background-color: rgb(5, 5, 125);
+  color: white;
+}
+span {
+  color: red;
+}
